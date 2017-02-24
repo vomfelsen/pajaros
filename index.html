@@ -1,7 +1,63 @@
 <!DOCTYPE html>
 <html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Parallax.js | Simple Example</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+	<div id="container" class="wrapper">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.00"></li>
+			<li class="layer" data-depth="0.10"><div class="background"></div></li>
+			<li class="layer" data-depth="0.20">
+				<div class="logo-container">
+					<img src="images/logo-gobernacion_03.png"/>
+				</div>
+			</li>
+			<li class="layer" data-depth="0.30">
+				<div class="container-ave1">
+					<div class="ave1">
+						<img src="images/pajaros/ave1/ave1_02.png"/>
+					</div>
+				</div>
+			</li>
+			<li class="layer" data-depth="0.30">
+				<div class="container-ave5">
+					<div class="ave5">
+						<img src="images/pajaros/ave5/ave1_05.png"/>
+					</div>
+				</div>
+			</li>
+			<li class="layer" data-depth="0.8">
+				<div class="container-ave8">
+					<div class="ave8">
+						<img src="images/pajaros/ave8/8_03.png"/>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Scripts -->
+	<script src="scripts/parallax.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+
+	</script>
+
 </body>
 </html>
