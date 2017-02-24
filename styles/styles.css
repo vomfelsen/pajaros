@@ -187,9 +187,9 @@ input[type=checkbox]:checked + label:before {
 
 .container-ave8 .ave8{
     width: 290px;
-    margin-left: 1060px;
     position: absolute;
-    margin-top: 185px;
+    top: 185px;
+    left: 1060px;
 }
 
 .container-ave5{
