@@ -187,3 +187,14 @@ input[type=checkbox]:checked + label:before {
     position: absolute;
     margin-top: 185px;
 }
+
+.container-ave5{
+  position: relative;
+}
+
+.container-ave5 .ave5{
+    width: 300px;
+    position: absolute;
+    top: -30px;
+    right: 60px;
+}
