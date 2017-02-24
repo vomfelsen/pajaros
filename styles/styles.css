@@ -85,7 +85,7 @@ input[type=checkbox]:checked + label:before {
   overflow: hidden; }
 
 .layer {
-  position: absolute; }
+  position: absolute;}
   .layer div {
     -webkit-transform: translate3d(0,0,0);
     -moz-transform: translate3d(0,0,0);
@@ -95,7 +95,8 @@ input[type=checkbox]:checked + label:before {
     transform-style: preserve-3d;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+}
 
 .fill {
   position: absolute;
