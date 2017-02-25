@@ -295,6 +295,22 @@ input[type=checkbox]:checked + label:before {
     margin-left: -400px;
 }
 
+.close_iave1 {
+    display: block;
+    background: #42250f;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 168px;
+    right: -6px;
+    color: #FFF;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 69px;
+}
+
 audio{
   display: none;
 }
