@@ -96,17 +96,27 @@
 		</ul>
 	</div>
 
-	<div class="action-ave aave1"></a>
+	<div class="action-ave aave1"><span>i</span></div>
+
+	<div class="info-ave iave1">
+		<div class="info-ave-container">
+			<img src="images/fichas-tecnicas/ficha-ave-1.png"/>
+		</div>
+	</div>
 
 	<!-- Scripts -->
-	<script src="scripts/parallax.js"></script>
+	<script src="scripts/jquery.js"></script>
+	<script src="scripts/jquery.parallax.js"></script>
 	<script>
 
-	// Pretty simple huh?
-	var scene = document.getElementById('scene');
-	var parallax = new Parallax(scene);
+	$('#scene').parallax();
 
 	//alert( 'Your screen resolution is ' + screen.width + 'x' + screen.height );
+
+	$('.aave1').click(function() {
+	  $( ".iave1" ).slideToggle();
+	});
+
 
 	</script>
 
