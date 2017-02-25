@@ -168,6 +168,20 @@ input[type=checkbox]:checked + label:before {
     top: -5%;
 }
 
+.container-hojas-1 .hojas-1{
+    width: 828px;
+    position: absolute;
+    top: -14px;
+    left: -22px;
+}
+
+.container-hojas-2 .hojas-2{
+    width: 1092px;
+    position: absolute;
+    top: -14px;
+    right: 74px;
+}
+
 .logo-container{
     width: 650px;
     margin: 52px auto 0;
