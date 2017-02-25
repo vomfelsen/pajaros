@@ -277,18 +277,26 @@ input[type=checkbox]:checked + label:before {
 }
 
 .iave1{
-  width: 100%;
-  height: 100%;
-  display: none;
-}
-
-.info-ave-container{
-      margin: auto;
+  margin: auto;
     width: 800px;
     z-index: 999999999;
     position: absolute;
     left: 50%;
     margin-left: -400px;
+    display: none;
+}
+
+.info-ave-container{
+    margin: auto;
+    width: 800px;
+    z-index: 999999999;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+}
+
+audio{
+  display: none;
 }
 
 
