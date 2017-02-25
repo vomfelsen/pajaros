@@ -224,6 +224,7 @@ input[type=checkbox]:checked + label:before {
 .container-ave7,
 .container-ave8,
 .container-ave9,
+.container-ave10,
 .container-hojas-1,
 .container-hojas-2,
 .container-hojas-3,
@@ -240,10 +241,10 @@ input[type=checkbox]:checked + label:before {
 }
 
 .container-ave3 .ave3{
-    width: 255px;
+    width: 631px;
     position: absolute;
-    bottom: -33px;
-    right: -10px;
+    bottom: -51px;
+    right: -45px;
 }
 
 .container-ave4 .ave4{
@@ -282,10 +283,17 @@ input[type=checkbox]:checked + label:before {
 }
 
 .container-ave9 .ave9{
-  width: 855px;
+    width: 820px;
     position: absolute;
-    top: 239px;
+    top: 222px;
     left: -58px;
+}
+
+.container-ave10 .ave10{
+    width: 237px;
+    position: absolute;
+    top: 483px;
+    left: -60px;
 }
 
 .action-ave{
