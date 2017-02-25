@@ -182,6 +182,19 @@ input[type=checkbox]:checked + label:before {
     right: 74px;
 }
 
+.container-hojas-3 .hojas-3{
+    width: 1092px;
+    position: absolute;
+    bottom: -14px;
+    right: 74px;
+}
+.container-hojas-4 .hojas-4{
+    width: 1092px;
+    position: absolute;
+    bottom: -14px;
+    left: 30px;
+}
+
 .logo-container{
     width: 650px;
     margin: 52px auto 0;
@@ -210,7 +223,11 @@ input[type=checkbox]:checked + label:before {
 .container-ave6,
 .container-ave7,
 .container-ave8,
-.container-ave9{
+.container-ave9,
+.container-hojas-1,
+.container-hojas-2,
+.container-hojas-3,
+.container-hojas-4{
   position: relative;
   height: 100%
 }
