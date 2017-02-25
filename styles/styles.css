@@ -257,6 +257,20 @@ input[type=checkbox]:checked + label:before {
     left: -58px;
 }
 
+.action-ave{
+    display: block;
+    position: absolute;
+    top: 60px;
+    letter-spacing: 60px;
+    width: 60px;
+    height: 60px;
+    background: red;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999999;
+    left: 77px;
+}
+
 
 
 .swing-1 {
