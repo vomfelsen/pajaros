@@ -173,6 +173,11 @@ input[type=checkbox]:checked + label:before {
     margin: 52px auto 0;
 }
 
+.logo-risaralda{
+    width: 768px;
+    margin: 399px auto 0px;
+}
+
 .container-ave1{
 
 }
@@ -185,15 +190,36 @@ input[type=checkbox]:checked + label:before {
     animation: wave 4s 0.1s infinite linear;*/
 }
 
-.container-ave8 .ave8{
-    width: 290px;
-    position: absolute;
-    top: 185px;
-    left: 1370px;
+.container-ave2,
+.container-ave3,
+.container-ave5,
+.container-ave6,
+.container-ave7,
+.container-ave8,
+.container-ave9{
+  position: relative;
+  height: 100%
 }
 
-.container-ave5{
-  position: relative;
+.container-ave2 .ave2{
+    width: 420px;
+    position: absolute;
+    bottom: -42px;
+    left: -76px;
+}
+
+.container-ave3 .ave3{
+    width: 255px;
+    position: absolute;
+    bottom: -33px;
+    right: -10px;
+}
+
+.container-ave4 .ave4{
+    width: 664px;
+    position: absolute;
+    left: -60px;
+    top: 545px;
 }
 
 .container-ave5 .ave5{
@@ -202,6 +228,36 @@ input[type=checkbox]:checked + label:before {
     top: -30px;
     right: 0px;
 }
+
+.container-ave6 .ave6{
+  width: 368px;
+    position: absolute;
+    right: -76px;
+    top: 460px;
+}
+
+.container-ave7 .ave7{
+    width: 744px;
+    position: absolute;
+    bottom: -30px;
+    left: 31%;
+}
+
+.container-ave8 .ave8{
+    width: 290px;
+    position: absolute;
+    top: 185px;
+    left: 1067px;
+}
+
+.container-ave9 .ave9{
+  width: 855px;
+    position: absolute;
+    top: 239px;
+    left: -58px;
+}
+
+
 
 .swing-1 {
   -webkit-animation: swing 4s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
