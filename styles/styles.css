@@ -381,6 +381,42 @@ audio{
   transform-origin: 0% 100%;
 }
 
+.swing-9 {
+  -webkit-animation: swing 6s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  -moz-animation: swing 6s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  animation: swing 6s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+
+.swing-4 {
+  -webkit-animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: swing 8s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transform-origin: 0% 100%;
+  -moz-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+
+.swing-7 {
+  -webkit-animation: swing 10s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -moz-animation: swing 10s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  animation: swing 10s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  -webkit-transform-origin: right bottom;
+  -moz-transform-origin: right bottom;
+  transform-origin: right bottom;
+}
+
+.swing-3 {
+  -webkit-animation: swing 6s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  -moz-animation: swing 6s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  animation: swing 6s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  -webkit-transform-origin: 100% 20%;
+  -moz-transform-origin: 100% 20%;
+  transform-origin: 100% 20%;
+}
+
 @-webkit-keyframes wave {
   0% {
     -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
