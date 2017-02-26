@@ -526,6 +526,13 @@ audio{
   display: none;
 }
 
+.creditos{
+  position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -293px;
+}
+
 
 
 .swing-1 {
