@@ -315,14 +315,23 @@ input[type=checkbox]:checked + label:before {
     text-indent: 14px;
 }
 
-.iave1{
+.iave1,
+.iave2,
+.iave3,
+.iave4,
+.iave5,
+.iave6,
+.iave7,
+.iave8,
+.iave9,
+.iave10{
   margin: auto;
-    width: 800px;
-    z-index: 999999999;
-    position: absolute;
-    left: 50%;
-    margin-left: -400px;
-    display: none;
+  width: 800px;
+  z-index: 999999999;
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  display: none;
 }
 
 .info-ave-container{
