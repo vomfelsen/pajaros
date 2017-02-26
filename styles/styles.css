@@ -4,6 +4,7 @@ body {
   background: #111;
   color: #666;
   margin: 0;
+  overflow: hidden;
 }
 
 img {
@@ -309,7 +310,7 @@ input[type=checkbox]:checked + label:before {
     letter-spacing: 60px;
     width: 40px;
     height: 40px;
-    background: #ef6f6c;
+    /*background: #ef6f6c;*/
     border-radius: 50%;
     cursor: pointer;
     z-index: 999999;
@@ -321,54 +322,77 @@ input[type=checkbox]:checked + label:before {
 }
 
 .aave1{
-    left: 73px;
+left: 53px;
     top: 161px;
+    width: 253px;
+    height: 206px;
+    cursor: pointer;
 }
 
 .aave2{
-  left: 73px;
-  bottom: 70px;
+  left: 23px;
+    bottom: 14px;
+    width: 397px;
+    height: 290px;
 }
 
 .aave3{
-  right: 193px;
+  right: 31px;
   top: 700px;
+  width: 300px;
+  height: 174px;
 }
 
 .aave4{
-  left: 440px;
-  top: 592px;
+  left: 391px;
+  top: 541px;
+  width: 200px;
+  height: 165px;
 }
 
 .aave5{
-  right: 100px;
-  top: 60px;
+right: 18px;
+    top: 60px;
+    width: 264px;
+    height: 260px;
 }
 
 .aave6{
-  right: 130px;
-  top: 480px;
+    right: 0px;
+    top: 469px;
+    width: 281px;
+    height: 131px;
 }
 
 .aave7{
-  left: 910px;
-  bottom: 200px;
+    left: 761px;
+    bottom: 123px;
+    width: 308px;
+    height: 176px;
 }
 
 .aave8{
-  right: 800px;
-  top: 300px;
+    right: 511px;
+    top: 249px;
+    width: 497px;
+    height: 243px;
 }
 
 .aave9{
-  left: 380px;
-  top: 350px;
+    left: 380px;
+    top: 254px;
+    width: 300px;
+    height: 181px;
 }
 
 .aave10{
-  left: 10px;
-  top: 480px;
+    left: -22px;
+    top: 491px;
+    width: 226px;
+    height: 289px;
 }
+
+
 
 
 /*.iave3,
