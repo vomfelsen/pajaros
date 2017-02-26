@@ -194,6 +194,12 @@ input[type=checkbox]:checked + label:before {
     bottom: -14px;
     left: 30px;
 }
+.container-hojas-5 .hojas-5{
+    width: 634px;
+    position: absolute;
+    top: 229px;
+    right: -100px;
+}
 
 .logo-container{
     width: 650px;
@@ -228,7 +234,8 @@ input[type=checkbox]:checked + label:before {
 .container-hojas-1,
 .container-hojas-2,
 .container-hojas-3,
-.container-hojas-4{
+.container-hojas-4,
+.container-hojas-5{
   position: relative;
   height: 100%
 }
@@ -255,7 +262,7 @@ input[type=checkbox]:checked + label:before {
 }
 
 .container-ave5 .ave5{
-    width: 300px;
+    width: 280px;
     position: absolute;
     top: -30px;
     right: -56px;
