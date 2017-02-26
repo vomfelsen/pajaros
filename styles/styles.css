@@ -322,7 +322,6 @@ input[type=checkbox]:checked + label:before {
     text-indent: 14px;
 }
 
-.iave1,
 .iave2,
 .iave3,
 .iave4,
@@ -340,6 +339,47 @@ input[type=checkbox]:checked + label:before {
   margin-left: -400px;
   display: none;
 }
+
+.iave1{
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: relative;
+  width: 747px;
+  height: 915px;
+  margin: 0 auto;
+}
+
+.info-ave-inner{
+  height: 100%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 1s cubic-bezier(0.77, 0, 0.175, 1);
+  width: 100%;
+  -webkit-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50%, 0;
+  transform-origin: 50% 0;
+}
+
+.info-ave-inner img{
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.iave1.hide .info-ave-inner{
+  -webkit-transform: rotateX(-120deg);
+  transform: rotateX(-120deg);
+  -webkit-transform-origin: 50%, 0;
+  transform-origin: 50% 0;
+}
+
+
 
 .info-ave-container{
     margin: auto;
@@ -364,6 +404,7 @@ input[type=checkbox]:checked + label:before {
     font-weight: bold;
     text-align: center;
     line-height: 69px;
+    z-index: 999;
 }
 
 audio{

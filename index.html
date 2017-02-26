@@ -147,13 +147,16 @@
 
 	<div class="action-ave aave1"><span>i</span></div>
 
-	<div class="info-ave iave1">
-		<div class="close_iave1">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-1.png"/>
-		<audio id="audio-ave1" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave1.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
+
+	<div class="iave1 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave1">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-1.png"/>
+			<audio id="audio-ave1" controls loop>
+			  <source src="audio/chlorochrysa-nitidissima-ave1.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
 	</div>
 
 	<div class="info-ave iave2">
@@ -249,12 +252,16 @@
 	var avee1 = $('#audio-ave1');
 
 	$('.aave1').click(function() {
-		$( ".iave1" ).show();
-		avee1[0].play();
+		$( ".iave1" ).removeClass('hide');
+
+		setTimeout(function () {
+		  avee1[0].play();
+		}, 1000);
+
 	});
 
 	$('.close_iave1').click(function() {
-		$( ".iave1" ).hide();
+		$( ".iave1" ).addClass('hide');
 		avee1[0].pause();
 	});
 
