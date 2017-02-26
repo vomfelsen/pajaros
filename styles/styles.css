@@ -306,7 +306,6 @@ input[type=checkbox]:checked + label:before {
 .action-ave{
     display: block;
     position: absolute;
-    top: 70px;
     letter-spacing: 60px;
     width: 40px;
     height: 40px;
@@ -314,7 +313,6 @@ input[type=checkbox]:checked + label:before {
     border-radius: 50%;
     cursor: pointer;
     z-index: 999999;
-    left: 73px;
     color: #FFF;
     text-align: center;
     line-height: 40px;
@@ -322,7 +320,16 @@ input[type=checkbox]:checked + label:before {
     text-indent: 14px;
 }
 
-.iave2,
+.aave1{
+    left: 73px;
+    top: 161px;
+}
+
+.aave2{
+  left: 73px;
+  bottom: 70px;
+}
+
 .iave3,
 .iave4,
 .iave5,
@@ -340,13 +347,17 @@ input[type=checkbox]:checked + label:before {
   display: none;
 }
 
-.iave1{
+.iave1,
+.iave2{
   -webkit-perspective: 1000px;
   perspective: 1000px;
-  position: relative;
+  position: absolute;
   width: 747px;
   height: 915px;
-  margin: 0 auto;
+  margin: 0 -374px;
+  left: 50%;
+  top: 0;
+  z-index: 99999;
 }
 
 .info-ave-inner{
@@ -372,7 +383,13 @@ input[type=checkbox]:checked + label:before {
   width: 100%;
 }
 
-.iave1.hide .info-ave-inner{
+.iave1.hide,
+.iave2.hide{
+  z-index: 1;
+}
+
+.iave1.hide .info-ave-inner,
+.iave2.hide .info-ave-inner{
   -webkit-transform: rotateX(-120deg);
   transform: rotateX(-120deg);
   -webkit-transform-origin: 50%, 0;
@@ -384,13 +401,13 @@ input[type=checkbox]:checked + label:before {
 .info-ave-container{
     margin: auto;
     width: 800px;
-    z-index: 999999999;
     position: absolute;
     left: 50%;
     margin-left: -400px;
 }
 
-.close_iave1 {
+.close_iave1,
+.close_iave2{
     display: block;
     background: #42250f;
     width: 80px;
@@ -404,7 +421,8 @@ input[type=checkbox]:checked + label:before {
     font-weight: bold;
     text-align: center;
     line-height: 69px;
-    z-index: 999;
+    z-index: 999999;
+    cursor: pointer;
 }
 
 audio{

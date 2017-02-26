@@ -146,6 +146,7 @@
 	</div>
 
 	<div class="action-ave aave1"><span>i</span></div>
+	<div class="action-ave aave2"><span>i</span></div>
 
 
 	<div class="iave1 hide">
@@ -159,86 +160,28 @@
 		</div>
 	</div>
 
-	<div class="info-ave iave2">
-		<div class="close_iave2">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-2.png"/>
-		<audio id="audio-ave2" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave2.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
+	<div class="iave2 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave2">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-2.png"/>
+			<audio id="audio-ave2" controls loop>
+			  <source src="audio/penelope-perspicax.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
 	</div>
 
-	<div class="info-ave iave3">
-		<div class="close_iave3">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-3.png"/>
-		<audio id="audio-ave3" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave3.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
+	<div class="iave3 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave3">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-3.png"/>
+			<audio id="audio-ave3" controls loop>
+			  <source src="audio/anisognathus-igniventris.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
 	</div>
 
-	<div class="info-ave iave4">
-		<div class="close_iave4">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-4.png"/>
-		<audio id="audio-ave4" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave4.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
-
-	<div class="info-ave iave5">
-		<div class="close_iave5">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-5.png"/>
-		<audio id="audio-ave5" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave5.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
-
-	<div class="info-ave iave6">
-		<div class="close_iave6">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-6.png"/>
-		<audio id="audio-ave6" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave6.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
-
-	<div class="info-ave iave7">
-		<div class="close_iave7">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-7.png"/>
-		<audio id="audio-ave7" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave7.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
-
-	<div class="info-ave iave8">
-		<div class="close_iave8">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-8.png"/>
-		<audio id="audio-ave8" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave8.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
-
-	<div class="info-ave iave9">
-		<div class="close_iave9">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-9.png"/>
-		<audio id="audio-ave9" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave9.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
-
-	<div class="info-ave iave10">
-		<div class="close_iave10">x</div>
-		<img src="images/fichas-tecnicas/ficha-ave-10.png"/>
-		<audio id="audio-ave10" controls loop>
-		  <source src="audio/chlorochrysa-nitidissima-ave10.mp3" type="audio/mpeg">
-		  Your browser does not support the audio tag.
-		</audio>
-	</div>
 
 	<!-- Scripts -->
 	<script src="scripts/jquery.js"></script>
@@ -250,9 +193,12 @@
 	//alert( 'Your screen resolution is ' + screen.width + 'x' + screen.height );
 
 	var avee1 = $('#audio-ave1');
+	var avee2 = $('#audio-ave2');
 
+	//INFO AVE 1
 	$('.aave1').click(function() {
 		$( ".iave1" ).removeClass('hide');
+		$(".action-ave").hide();
 
 		setTimeout(function () {
 		  avee1[0].play();
@@ -262,7 +208,25 @@
 
 	$('.close_iave1').click(function() {
 		$( ".iave1" ).addClass('hide');
+		$(".action-ave").show();
 		avee1[0].pause();
+	});
+
+	//INFO AVE 2
+	$('.aave2').click(function() {
+		$( ".iave2" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee2[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave2').click(function() {
+		$( ".iave2" ).addClass('hide');
+		$(".action-ave").show();
+		avee2[0].pause();
 	});
 
 
