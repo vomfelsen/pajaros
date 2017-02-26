@@ -147,6 +147,14 @@
 
 	<div class="action-ave aave1"><span>i</span></div>
 	<div class="action-ave aave2"><span>i</span></div>
+	<div class="action-ave aave3"><span>i</span></div>
+	<div class="action-ave aave4"><span>i</span></div>
+	<div class="action-ave aave5"><span>i</span></div>
+	<div class="action-ave aave6"><span>i</span></div>
+	<div class="action-ave aave7"><span>i</span></div>
+	<div class="action-ave aave8"><span>i</span></div>
+	<div class="action-ave aave9"><span>i</span></div>
+	<div class="action-ave aave10"><span>i</span></div>
 
 
 	<div class="iave1 hide">
@@ -182,6 +190,83 @@
 		</div>
 	</div>
 
+	<div class="iave4 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave4">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-4.png"/>
+			<audio id="audio-ave4" controls loop>
+			  <source src="audio/bangsia-aureocincta.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
+	<div class="iave5 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave5">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-5.png"/>
+			<audio id="audio-ave5" controls loop>
+			  <source src="audio/picumnus-granadensis.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
+	<div class="iave6 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave6">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-6.png"/>
+			<audio id="audio-ave6" controls loop>
+			  <source src="audio/dacnis-hartlaubi.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
+	<div class="iave7 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave7">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-7.png"/>
+			<audio id="audio-ave7" controls loop>
+			  <source src="audio/boissonneaua-jardini.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
+	<div class="iave8 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave8">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-8.png"/>
+			<audio id="audio-ave8" controls loop>
+			  <source src="audio/xenopipo-flavicapilla.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
+	<div class="iave9 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave9">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-9.png"/>
+			<audio id="audio-ave9" controls loop>
+			  <source src="audio/bangsia-melanochlamys.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
+	<div class="iave10 hide">
+		<div class="info-ave-inner">
+			<div class="close_iave10">x</div>
+			<img src="images/fichas-tecnicas/ficha-ave-10.png"/>
+			<audio id="audio-ave10" controls loop>
+			  <source src="audio/momotus-aequatorialis.mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+		</div>
+	</div>
+
 
 	<!-- Scripts -->
 	<script src="scripts/jquery.js"></script>
@@ -194,6 +279,14 @@
 
 	var avee1 = $('#audio-ave1');
 	var avee2 = $('#audio-ave2');
+	var avee3 = $('#audio-ave3');
+	var avee4 = $('#audio-ave4');
+	var avee5 = $('#audio-ave5');
+	var avee6 = $('#audio-ave6');
+	var avee7 = $('#audio-ave7');
+	var avee8 = $('#audio-ave8');
+	var avee9 = $('#audio-ave9');
+	var avee10 = $('#audio-ave10');
 
 	//INFO AVE 1
 	$('.aave1').click(function() {
@@ -227,6 +320,142 @@
 		$( ".iave2" ).addClass('hide');
 		$(".action-ave").show();
 		avee2[0].pause();
+	});
+
+	//INFO AVE 3
+	$('.aave3').click(function() {
+		$( ".iave3" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee3[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave3').click(function() {
+		$( ".iave3" ).addClass('hide');
+		$(".action-ave").show();
+		avee3[0].pause();
+	});
+
+	//INFO AVE 4
+	$('.aave4').click(function() {
+		$( ".iave4" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee4[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave4').click(function() {
+		$( ".iave4" ).addClass('hide');
+		$(".action-ave").show();
+		avee4[0].pause();
+	});
+
+	//INFO AVE 5
+	$('.aave5').click(function() {
+		$( ".iave5" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee5[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave5').click(function() {
+		$( ".iave5" ).addClass('hide');
+		$(".action-ave").show();
+		avee5[0].pause();
+	});
+
+	//INFO AVE 6
+	$('.aave6').click(function() {
+		$( ".iave6" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee6[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave6').click(function() {
+		$( ".iave6" ).addClass('hide');
+		$(".action-ave").show();
+		avee6[0].pause();
+	});
+
+	//INFO AVE 7
+	$('.aave7').click(function() {
+		$( ".iave7" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee7[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave7').click(function() {
+		$( ".iave7" ).addClass('hide');
+		$(".action-ave").show();
+		avee7[0].pause();
+	});
+
+	//INFO AVE 8
+	$('.aave8').click(function() {
+		$( ".iave8" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee8[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave8').click(function() {
+		$( ".iave8" ).addClass('hide');
+		$(".action-ave").show();
+		avee8[0].pause();
+	});
+
+	//INFO AVE 9
+	$('.aave9').click(function() {
+		$( ".iave9" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee9[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave9').click(function() {
+		$( ".iave9" ).addClass('hide');
+		$(".action-ave").show();
+		avee9[0].pause();
+	});
+
+	//INFO AVE 10
+	$('.aave10').click(function() {
+		$( ".iave10" ).removeClass('hide');
+		$(".action-ave").hide();
+
+		setTimeout(function () {
+		  avee10[0].play();
+		}, 1000);
+
+	});
+
+	$('.close_iave10').click(function() {
+		$( ".iave10" ).addClass('hide');
+		$(".action-ave").show();
+		avee10[0].pause();
 	});
 
 

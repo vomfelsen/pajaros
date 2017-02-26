@@ -330,7 +330,48 @@ input[type=checkbox]:checked + label:before {
   bottom: 70px;
 }
 
-.iave3,
+.aave3{
+  right: 193px;
+  top: 700px;
+}
+
+.aave4{
+  left: 440px;
+  top: 592px;
+}
+
+.aave5{
+  right: 100px;
+  top: 60px;
+}
+
+.aave6{
+  right: 130px;
+  top: 480px;
+}
+
+.aave7{
+  left: 910px;
+  bottom: 200px;
+}
+
+.aave8{
+  right: 800px;
+  top: 300px;
+}
+
+.aave9{
+  left: 380px;
+  top: 350px;
+}
+
+.aave10{
+  left: 10px;
+  top: 480px;
+}
+
+
+/*.iave3,
 .iave4,
 .iave5,
 .iave6,
@@ -345,10 +386,18 @@ input[type=checkbox]:checked + label:before {
   left: 50%;
   margin-left: -400px;
   display: none;
-}
+}*/
 
 .iave1,
-.iave2{
+.iave2,
+.iave3,
+.iave4,
+.iave5,
+.iave6,
+.iave7,
+.iave8,
+.iave9,
+.iave10{
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
@@ -384,12 +433,28 @@ input[type=checkbox]:checked + label:before {
 }
 
 .iave1.hide,
-.iave2.hide{
+.iave2.hide,
+.iave3.hide,
+.iave4.hide,
+.iave5.hide,
+.iave6.hide,
+.iave7.hide,
+.iave8.hide,
+.iave9.hide,
+.iave10.hide{
   z-index: 1;
 }
 
 .iave1.hide .info-ave-inner,
-.iave2.hide .info-ave-inner{
+.iave2.hide .info-ave-inner,
+.iave3.hide .info-ave-inner,
+.iave4.hide .info-ave-inner,
+.iave5.hide .info-ave-inner,
+.iave6.hide .info-ave-inner,
+.iave7.hide .info-ave-inner,
+.iave8.hide .info-ave-inner,
+.iave9.hide .info-ave-inner,
+.iave10.hide .info-ave-inner{
   -webkit-transform: rotateX(-120deg);
   transform: rotateX(-120deg);
   -webkit-transform-origin: 0 0;
@@ -407,7 +472,15 @@ input[type=checkbox]:checked + label:before {
 }
 
 .close_iave1,
-.close_iave2{
+.close_iave2,
+.close_iave3,
+.close_iave4,
+.close_iave5,
+.close_iave6,
+.close_iave7,
+.close_iave8,
+.close_iave9,
+.close_iave10{
     display: block;
     background: #42250f;
     width: 80px;
